@@ -1,0 +1,25 @@
+title: Jean-Michel Gorius' Blog
+description: >-
+    A blog about computer science, maths and stuff.
+url: https://kayjukh.github.io
+
+social:
+    name: Jean-Michel Gorius
+    links:
+        - https://github.com/Kayjukh
+        - https://gitlab.com/jean-michel.gorius
+        - https://bitbucket.org/Kayjukh
+        - https://stackoverflow.com/users/6674126/j-m-gorius
+
+google_site_verification: "UA-131385513-1"
+
+defaults:
+    - scope:
+        path: ""
+        type: "posts"
+      values:
+        layout: "post"
+    - scope:
+        path: ""
+      values:
+        layout: "default"
