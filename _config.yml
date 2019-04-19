@@ -27,7 +27,7 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "Jean-Michel Gorius - Blog"
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
+words_per_minute         : 75
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
@@ -113,7 +113,6 @@ author:
   avatar           : "/assets/images/k.png"
   bio              : "I am a computer science student at ENS Rennes, France."
   location         : "Rennes, FR"
-  email            : "jean-michel.gorius[at]ens-rennes.fr"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -284,3 +283,7 @@ defaults:
       comments: # true
       share: true
       related: true
+      header:
+        show_overlay_excerpt: false
+        overlay_filter: 0.5
+        caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
