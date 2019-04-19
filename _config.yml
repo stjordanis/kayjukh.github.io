@@ -23,3 +23,8 @@ defaults:
         path: ""
       values:
         layout: "default"
+
+plugins:
+    - jekyll-seo
+    - jekyll-feed
+    - jekyll-seo-tag
