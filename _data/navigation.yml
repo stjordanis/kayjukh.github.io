@@ -1,6 +1,3 @@
-- name: Home
-  link: /
-- name: About
-  link: /about.html
-- name: Blog
-  link: /blog.html
+main:
+    - title: Personal website
+      url: http://perso.eleves.ens-rennes.fr/people/jean-michel.gorius/
