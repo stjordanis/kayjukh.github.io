@@ -172,6 +172,7 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - .hyde.el
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
 keep_files:
